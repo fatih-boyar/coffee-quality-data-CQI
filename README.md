@@ -31,8 +31,12 @@ Category Two defects are secondary defects that are more subtle and can only be 
 On this part, great thanks to [James LeDoux](https://github.com/jldbc). His repo [coffee-quality-database](https://github.com/jldbc/coffee-quality-database) from 2018 is efficiently written and well documented. To scrape the data, I used most of his code, but due to some changes on the website, I modified some of the lines. Also, some practices on modules deprecated and deleted so I updated those codes also. Therefore, on May-2023 we can use this updated python program to scrape data from this database.
 
 In this repo, you can find the python file for scraping -> scraper_bot.py
+
 After collecting the tables, some processing needed to construct a tabular data -> process_tables_f.py
+
 Tabular data is not so dirty but a bit cleaning was usefull -> data_cleaning.py
+
 Finally, clean data can be found as a .csv file in this repo -> df_arabica_clean.csv 
+
 
 Only data collected for the arabica type. With a few modification in scraper_bot.py, scraping can be easily replicated for robusta types also.
