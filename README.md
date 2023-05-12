@@ -28,7 +28,7 @@ Category One defects are primary defects that can be perceived through visual in
 Category Two defects are secondary defects that are more subtle and can only be detected through tasting. These defects include: Over-fermentation, staleness, rancidness, chemical taste etc.
 
 ## Data Scraping
-On this part, great thanks to [James LeDoux](https://github.com/jldbc). His repo [coffee-quality-database](https://github.com/jldbc/coffee-quality-database) from 2018 is efficiently written and well documented. To scrape the data, I used most of his code, but due to some changes on the website, I changed change some of the lines. Also, some practices on modules deprecated and deleted so I updated those codes also. Therefore, on May-2023 we can use this updated python program to scrape data from this database.
+On this part, great thanks to [James LeDoux](https://github.com/jldbc). His repo [coffee-quality-database](https://github.com/jldbc/coffee-quality-database) from 2018 is efficiently written and well documented. To scrape the data, I used most of his code, but due to some changes on the website, I modified some of the lines. Also, some practices on modules deprecated and deleted so I updated those codes also. Therefore, on May-2023 we can use this updated python program to scrape data from this database.
 
 In this repo, you can find the python file for scraping -> scraper_bot.py
 After collecting the tables, some processing needed to construct a tabular data -> process_tables_f.py
