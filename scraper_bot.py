@@ -9,8 +9,8 @@ import pandas as pd
 import time
 import lxml
 
-login_email = 'fatihboyar@gmail.com'
-login_password = 'QLe5kiNsXzq@vdy'
+login_email = 'your_email_address_here'
+login_password = 'your_password_here'
 
 # open chromedriver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
